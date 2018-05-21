@@ -1,0 +1,57 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+}
+
+
+#home{
+    background-color:#212026;
+    color:#BDC26B;
+    height: 70vh;
+}
+
+.hamburger {
+    min-height: 30px;
+    max-width: 50px;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color: blue;
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+    content: '';
+    transition-timing-function: ease;
+    transition-duration: .2s;
+    transition-property: transform,opacity;
+}
+.hamburger-inner:before {
+    top: 10px;
+}
+.hamburger-inner:after {
+    top: 20px;
+}
+
+.hamburger.open .hamburger-inner {
+	transform: rotate(-180deg);
+}
+
+.hamburger.open .hamburger-inner:after {
+	transform: translate3d(8px, 0, 0) rotate(-45deg) scale(0.7, 1);
+}
+
+.hamburger.open .hamburger-inner:before {
+	transform: translate3d(8px, 0, 0) rotate(45deg) scale(0.7, 1);
+}
+
+.border-project{
+    border: 1px solid black;
+    margin: 3%;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+}
+
