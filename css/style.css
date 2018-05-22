@@ -1,13 +1,64 @@
 body{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Kavivanar', cursive;
     margin: 0;
 }
 
+ img{
+    width: 60%;
+    padding: 5%;
 
-#home{
+ }
+ h2{
+    color:rgb(219, 62, 141);
+    margin: 0;
+ }
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+    
+}
+a:hover{
+    color:rgb(219, 62, 141);
+    text-decoration: none;
+}
+#link-pink:hover{
+    color:rgb(219, 62, 141);
+}
+.links-projects:hover{
+    color: #212026;
+    font-size: 1.5rem;
+}
+
+#home {
+    background-image: url("../assets/images/writing-code.jpg");
+    color:rgb(219, 62, 141);
+    height: 60vh;
+}
+#home2{
+    background-color: rgba(55, 58, 55, 0.5);
+    height: 60vh;
+}
+#aboutme{
     background-color:#212026;
-    color:#BDC26B;
-    height: 70vh;
+    color:rgb(240, 233, 236);
+}
+#projects{
+    background-color:#212026;
+    color:rgb(240, 233, 236);
+}
+#skills{
+    background-color:#212026;
+    color:rgb(219, 62, 141);
+}
+#contacme{
+    background-color:#212026;
+}
+#logo{
+    padding: 0;
+    width:20%;
 }
 
 .hamburger {
@@ -45,13 +96,10 @@ body{
 }
 
 .border-project{
-    border: 1px solid black;
+    border: 1px solid rgb(219, 62, 141);
     margin: 3%;
 }
-ul{
-    list-style: none;
-}
-li{
-    display: inline;
+.links-contact{
+    display: block;
 }
 
