@@ -2,7 +2,7 @@
 
 //efeto maquina de escribir
 
-var mensage1 = "Hi! Soy Ada Valdovinos", pausa = 50; 
+var mensage1 = "Ada Valdovinos.", pausa = 50; 
 var mensage2 = "Front End Developer", pausa = 50; 
 function start(){ 
  var i = 0;
