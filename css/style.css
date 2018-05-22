@@ -63,6 +63,9 @@ a:hover{
     padding: 0;
     width:20%;
 }
+#link-pink{
+    color:#62FFE2;
+}
 .p-about{
     font-size: 1.5rem;
 }
@@ -78,4 +81,5 @@ a:hover{
 .links-contact{
     display: block;
 }
+
 
