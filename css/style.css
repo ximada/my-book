@@ -9,7 +9,7 @@ body{
 
  }
  h2{
-    color:rgb(219, 62, 141);
+    color:#62FFE2;
     margin: 0;
  }
 ul{
@@ -21,29 +21,28 @@ a{
     
 }
 a:hover{
-    color:rgb(219, 62, 141);
+    color:#EF51FE;
     text-decoration: none;
 }
 #link-pink:hover{
-    color:rgb(219, 62, 141);
-}
-.links-projects:hover{
-    color: #212026;
-    font-size: 1.5rem;
+    color:#EF51FE;
 }
 
+
 #home {
-    background-image: url("../assets/images/writing-code.jpg");
-    color:rgb(219, 62, 141);
-    height: 60vh;
+    background-color: #212026;
+    color:#62FFE2;
+    height: 90vh;
 }
-#home2{
+/* #home2{
     background-color: rgba(55, 58, 55, 0.5);
-    height: 60vh;
-}
+    height: 90vh;
+} */
 #aboutme{
     background-color:#212026;
     color:rgb(240, 233, 236);
+    height: 90vh;
+    
 }
 #projects{
     background-color:#212026;
@@ -52,52 +51,29 @@ a:hover{
 #skills{
     background-color:#212026;
     color:rgb(219, 62, 141);
+    height: 90vh;
+    
 }
 #contacme{
     background-color:#212026;
+    height: 70vh;
+    
 }
 #logo{
     padding: 0;
     width:20%;
 }
-
-.hamburger {
-    min-height: 30px;
-    max-width: 50px;
-}
-.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
-    background-color: blue;
-    position: absolute;
-    width: 40px;
-    height: 4px;
-    border-radius: 5px;
-    content: '';
-    transition-timing-function: ease;
-    transition-duration: .2s;
-    transition-property: transform,opacity;
-}
-.hamburger-inner:before {
-    top: 10px;
-}
-.hamburger-inner:after {
-    top: 20px;
-}
-
-.hamburger.open .hamburger-inner {
-	transform: rotate(-180deg);
-}
-
-.hamburger.open .hamburger-inner:after {
-	transform: translate3d(8px, 0, 0) rotate(-45deg) scale(0.7, 1);
-}
-
-.hamburger.open .hamburger-inner:before {
-	transform: translate3d(8px, 0, 0) rotate(45deg) scale(0.7, 1);
+.p-about{
+    font-size: 1.5rem;
 }
 
 .border-project{
-    border: 1px solid rgb(219, 62, 141);
+    border: 1px solid #62FFE2;
     margin: 3%;
+}
+.links-projects:hover{
+    color: #55E8BE;
+    font-size: 1.5rem;
 }
 .links-contact{
     display: block;
