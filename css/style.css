@@ -1,23 +1,21 @@
 body{
-    font-family: 'Kavivanar', cursive;
     margin: 0;
 }
 
- img{
+img{
     width: 60%;
     padding: 5%;
-
- }
- h2{
-    color:#62FFE2;
+}
+h2{
+    /* color:#62FFE2; */
     margin: 0;
- }
+}
 ul{
     list-style: none;
 }
 
 a{
-    color: white;
+    color: black;
     
 }
 a:hover{
@@ -29,34 +27,34 @@ a:hover{
 }
 
 
-#home {
-    background-color: #212026;
-    color:#62FFE2;
-    height: 90vh;
+#home {    
+    color: #223322;
+    height: 80vh;
 }
-/* #home2{
-    background-color: rgba(55, 58, 55, 0.5);
-    height: 90vh;
-} */
+#home2{
+    font-family: 'Damion', cursive;
+    font-size: 5rem;
+    color: #223322;
+} 
 #aboutme{
-    background-color:#212026;
-    color:rgb(240, 233, 236);
+    font-family: 'Signika Negative', sans-serif;
     height: 90vh;
     
 }
 #projects{
-    background-color:#212026;
-    color:rgb(240, 233, 236);
+    
 }
 #skills{
-    background-color:#212026;
-    color:rgb(219, 62, 141);
+    
+    
     height: 90vh;
     
 }
 #contacme{
-    background-color:#212026;
-    height: 70vh;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B2D1F4, #F8B5F5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B2D1F4,#F8B5F5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 30vh;
     
 }
 #logo{
@@ -65,6 +63,11 @@ a:hover{
 }
 #link-pink{
     color:#62FFE2;
+}
+.navbar{
+    background-color: #212026;
+    /* position: fixed; */
+    width: 100%;
 }
 .p-about{
     font-size: 1.5rem;
@@ -78,8 +81,6 @@ a:hover{
     color: #55E8BE;
     font-size: 1.5rem;
 }
-.links-contact{
-    display: block;
-}
+
 
 
