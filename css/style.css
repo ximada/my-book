@@ -15,7 +15,7 @@ ul{
 }
 
 a{
-    color: black;
+    color: #223322;
     
 }
 a:hover{
@@ -54,6 +54,7 @@ a:hover{
     background: #fc00ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #B2D1F4, #F8B5F5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #B2D1F4,#F8B5F5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #223322;
     height: 30vh;
     
 }
@@ -63,6 +64,9 @@ a:hover{
 }
 #link-pink{
     color:#62FFE2;
+}
+.h2-font{
+    font-size: 3rem;
 }
 .navbar{
     background-color: #212026;
@@ -80,6 +84,13 @@ a:hover{
 .links-projects:hover{
     color: #55E8BE;
     font-size: 1.5rem;
+}
+.footer-ada{
+     background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B2D1F4, #F8B5F5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B2D1F4,#86DBD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #223322;
+    height: 15vh;
 }
 
 
