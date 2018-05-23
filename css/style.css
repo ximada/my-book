@@ -1,9 +1,10 @@
 body{
     margin: 0;
+
 }
 
 img{
-    width: 40%;
+    width: 45%;
     padding: 5%;
 }
 h2{
@@ -13,7 +14,9 @@ h2{
 ul{
     list-style: none;
 }
-
+li img{
+    box-shadow: 10px 10px 5px #F8B5F5;
+}
 a{
     color: #223322;
     
@@ -27,14 +30,16 @@ a:hover{
 }
 
 
-#home {    
+#home {  
     color: #223322;
     height: 80vh;
 }
 #home2{
+    color: #223322;
     font-family: 'Damion', cursive;
     font-size: 5rem;
-    color: #223322;
+    margin-top: 10%;
+    
 } 
 #aboutme{
     font-family: 'Signika Negative', sans-serif;
@@ -64,22 +69,25 @@ a:hover{
 }
 #link-pink{
     color:#62FFE2;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 1.5rem;
 }
 .h2-font{
     font-size: 3rem;
 }
 .navbar{
     background-color: #212026;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
+    z-index: 1001;
 }
 .p-about{
     font-size: 2rem;
 }
 
 .border-project{
-    border: 1px solid #62FFE2;
-    margin: 3%;
+    border: 2px solid #62FFE2;
+    
 }
 .links-projects:hover{
     color: #55E8BE;
