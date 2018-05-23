@@ -27,17 +27,17 @@ a:hover{
 }
 
 
-#home {
-    font-family: 'Signika Negative', sans-serif;
+#home {    
     color: #223322;
     height: 80vh;
 }
 #home2{
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Damion', cursive;
+    font-size: 5rem;
     color: #223322;
 } 
 #aboutme{
-    
+    font-family: 'Signika Negative', sans-serif;
     height: 90vh;
     
 }
