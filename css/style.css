@@ -82,6 +82,44 @@ a:hover{
 
 .border-project{
     border: 2px solid #62FFE2;
+    height: 50vh;
+    
+}
+.img-developer{
+    background-image: url("../assets/images/women2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.img-ecoShop{
+    background-image: url("../assets/images/macc-ecoshop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+.img-pokeland{
+    background-image: url("../assets/images/mac-web.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+.img-tiketHack{
+    background-image: url("../assets/images/iphone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+.img-LabCar{
+    background-image: url("../assets/images/lap-top2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+.img-StartFilms{
+    background-image: url("../assets/images/ipad.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
     
 }
 .links-projects:hover{
