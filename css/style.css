@@ -82,11 +82,11 @@ a:hover{
 
 .border-project{
     border: 2px solid #62FFE2;
-    height: 50vh;
+    height: 55vh;
     
 }
 .img-developer{
-    background-image: url("../assets/images/women2.jpg");
+    background-image: url("../assets/images/code.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 60vh;
@@ -102,12 +102,14 @@ a:hover{
     background-size: contain;
     background-repeat: no-repeat;
     height: 30vh;
+    margin-left: 30%;
 }
 .img-tiketHack{
     background-image: url("../assets/images/iphone.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 30vh;
+    margin-left: 30%;
 }
 .img-LabCar{
     background-image: url("../assets/images/lap-top2.png");
