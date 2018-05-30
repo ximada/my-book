@@ -38,6 +38,7 @@ a:hover{
     color: #223322;
     font-family: 'Damion', cursive;
     font-size: 5rem;
+    height: 60vh;
     
 } 
 #aboutme{
@@ -71,9 +72,9 @@ a:hover{
 }
 .navbar{
     background-color: #212026;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    z-index: 1001;
+    /* z-index: 1001; */
 }
 .p-about{
     font-size: 2rem;
@@ -85,11 +86,13 @@ a:hover{
     
 }
 .img-developer{
-    background-image: url("../assets/images/code.jpg");
+    background-image: url("../assets/images/flower.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 60vh;
+    opacity: 0.9;
 }
+
 .img-ecoShop{
     background-image: url("../assets/images/macc-ecoshop.png");
     background-size: contain;
@@ -108,7 +111,7 @@ a:hover{
     background-size: contain;
     background-repeat: no-repeat;
     height: 30vh;
-    margin-left: 30%;
+    margin-left: 40%;
 }
 .img-LabCar{
     background-image: url("../assets/images/lap-top2.png");
